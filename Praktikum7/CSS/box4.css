@@ -1,0 +1,48 @@
+.container  {
+    display: flex;
+}
+.header1, .header2, .aside1, .aside2, .main, .footer {
+    margin: 10px;
+}
+.header1 {
+    box-sizing: border-box;
+    background-color: yellow;
+    width: 25%;
+    border: 1px black solid;
+    height: 100px;
+}
+.header2 {
+    box-sizing: border-box;
+    background-color: orange;
+    width: 75%;
+    border: 1px black solid;
+    height: 100px;
+}
+.aside1 {
+    box-sizing: border-box;
+    background-color: #96d499;
+    width: 25%;
+    border: 1px black solid;
+    height: 600px;
+}
+.main {
+    box-sizing: border-box;
+    background-color: grey;
+    width: 50%;
+    border: 1px black solid;
+    height: 600px;
+}
+.aside2 {
+    box-sizing: border-box;
+    background-color: aqua;
+    width: 25%;
+    border: 1px black solid;
+    height: 600px;
+}
+.footer {
+    box-sizing: border-box;
+    border: 1px black solid;
+    width: 100%;
+    background-color: blue;
+    height: 100px;
+}

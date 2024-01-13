@@ -1,0 +1,12 @@
+body {
+    background-color: beige;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 250px;
+    margin-top: 10%;
+}

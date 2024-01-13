@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content:space-around;
+}
+.box1, .box2, .box3, .box4 {
+    box-sizing: border-box;
+    height: 800px;
+    border: 1px black solid;
+}
+.box1 {
+    background-color: yellow;
+    width: 22%;
+}
+.box2 {
+    background-color: orange;
+    width: 22%;
+}
+.box3 {
+    background-color: #96d499;
+    width: 22%;
+}
+.box4 {
+    background-color: aqua;
+    width: 22%;
+}

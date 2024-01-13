@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+img {
+  width: calc(33.33% - 10px); /* Untuk 3 gambar dalam satu baris */
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px black solid;
+}
+
+/* Memberikan ruang pada setiap sisi gambar */
+img:first-child {
+  margin-right: 10px;
+}
+
+img:last-child {
+  margin-left: 10px;
+}
+
+/* Adjust styling untuk 5 gambar dalam satu baris di bawahnya */
+.row:nth-child(2) img {
+  width: calc(20% - 10px); /* Untuk 5 gambar dalam satu baris */
+}
+
+/* Memberikan ruang pada setiap sisi gambar di baris kedua */
+.row:nth-child(2) img {
+  margin-right: 8px;
+}
+
+/* Memberikan ruang pada setiap sisi gambar terakhir di baris kedua */
+.row:nth-child(2) img:last-child {
+  margin-right: 0;
+}

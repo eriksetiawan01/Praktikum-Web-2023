@@ -1,0 +1,40 @@
+.header {
+    border: 1px black solid;
+    width: 100%;
+    background-color: #96d499;
+    height: 150px;
+}
+.container {
+    display: flex;
+    padding-top: 15px;
+}
+.aside1 {
+    background-color: yellow;
+    width: 25%;
+    height: 350px;
+    box-sizing: border-box;
+    border: 1px black solid;
+}
+.main1 {
+    background-color: orange;
+    width: 75%;
+    height: 350px;
+    box-sizing: border-box;
+    border: 1px black solid;
+    margin-left: 15px;
+}
+.aside2 {
+    background-color: yellow;
+    width: 25%;
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px black solid;
+}
+.main2 {
+    background-color: aqua;
+    width: 75%;
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px black solid;
+    margin-left: 15px;
+}
